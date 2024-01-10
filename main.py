@@ -5,7 +5,8 @@ import socket
 # host = input("Please enter the host details: ")
 
 # Option 2: Use own IP address
-host = socket.gethostbyname(socket.gethostname())  # Getting IP address of the host
+# host = socket.gethostbyname(socket.gethostname())  # Getting IP address of the host
+host = '10.0.2.15'  # Getting IP address of the host
 
 
 # Function to check if a port is open
